@@ -39,10 +39,6 @@ Here are some examples of how to interact with the contract:
    
 Please note that additional error checking and input validation may be required based on your specific implementation.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contributing
 
 Contributions to this project are welcome. Feel free to open issues and submit pull requests to propose changes or improvements.
