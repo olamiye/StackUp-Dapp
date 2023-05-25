@@ -1,0 +1,11 @@
+Introduction:
+The StackUp smart contract has been enhanced with two crucial features: Quest Review Functionality and Quest Start and End Time management. These additions aim to further emulate the functionalities of StackUp, providing a comprehensive quest system. Let's explore why these features were chosen and how they work.
+
+Quest Review Functionality:
+The Quest Review Functionality allows the admin to review and either approve or reject player submissions. This feature adds an important layer of validation and fairness to the quest system. The admin can thoroughly assess submissions, ensuring they meet the quest requirements before granting approval. Rejected submissions can be communicated with appropriate feedback to players, encouraging improvement and maintaining the integrity of the quest system.
+
+Quest Start and End Time Management:
+The inclusion of Quest Start and End Time management is vital to creating a structured and time-bound quest system. Each quest now has designated start and end times. Players can only join quests that have started but not yet ended, ensuring they actively participate within the given timeframe. Additionally, submissions are accepted only before the quest's end time, preventing late or invalid entries.
+
+Conclusion:
+The addition of Quest Review Functionality and Quest Start and End Time management brings StackUp's smart contract closer to mirroring the original StackUp platform. These features enhance the fairness, accountability, and time-bound nature of the quest system. By allowing admin review and implementing time restrictions, players can have confidence in their submissions, encouraging active participation, and ensuring a vibrant and engaging quest ecosystem.
