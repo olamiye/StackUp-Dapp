@@ -7,5 +7,22 @@ The Quest Review Functionality allows the admin to review and either approve or 
 Quest Start and End Time Management:
 The inclusion of Quest Start and End Time management is vital to creating a structured and time-bound quest system. Each quest now has designated start and end times. Players can only join quests that have started but not yet ended, ensuring they actively participate within the given timeframe. Additionally, submissions are accepted only before the quest's end time, preventing late or invalid entries.
 
+Usage:
+Here are some examples of how to interact with the contract:
+
+1. Creating a Quest:
+   - Call the `createQuest` function as the admin, providing the required parameters such as title, reward, number of rewards, start time, and end time.
+   
+2. Joining a Quest:
+   - Call the `joinQuest` function as a player, providing the quest ID of the desired quest to join.
+   - Make sure the quest has started and has not yet ended.
+   
+3. Submitting a Quest:
+   - Call the `submitQuest` function as a player, providing the quest ID and a description of the quest achievement.
+   - Make sure the quest is still ongoing.
+   
+4. Reviewing Submissions:
+   - Call the `reviewSubmission` function as the admin, providing the submission index and indicating approval or rejection.
+   
 Conclusion:
 The addition of Quest Review Functionality and Quest Start and End Time management brings StackUp's smart contract closer to mirroring the original StackUp platform. These features enhance the fairness, accountability, and time-bound nature of the quest system. By allowing admin review and implementing time restrictions, players can have confidence in their submissions, encouraging active participation, and ensuring a vibrant and engaging quest ecosystem.
